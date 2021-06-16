@@ -54,7 +54,7 @@ public class Attendance {
     private String vacationTo;
 
     @Column(name = "active")
-    private Integer active;
+    private Integer active =1;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
